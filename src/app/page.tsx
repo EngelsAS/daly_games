@@ -49,7 +49,7 @@ export default async function Home() {
         <h1 className="text-center font-bold text-xl mt-8 mb-5">
           Separamos um jogo exclusivo pra você
         </h1>
-        <Link href={`/gaming/${dalyGame.id}`}>
+        <Link href={`/game/${dalyGame.id}`}>
           <section className="w-full bg-black rounded-lg">
             <div className="w-full max-h-96 h-96 relative rounded-lg">
               <div className="absolute z-20 bottom-0 p-3 flex justify-center items-center gap-2">
